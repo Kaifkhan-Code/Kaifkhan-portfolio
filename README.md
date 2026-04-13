@@ -1,10 +1,10 @@
 # 🌐 Animated Portfolio Website
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **85K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project features smooth animations, modern design, and clean code that's perfect for showcasing your work.
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+🔗 [View Portfolio Live](#) <!-- Add your deployed URL here -->
 
 ## 🛠️ Tech Stack
 
@@ -26,9 +26,9 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 ### 1. Clone the Repo
 
 ```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+git clone https://github.com/Kaifkhan-Code/Kaif-Portfolio.git
+cd Kaif-Portfolio
+```
 
 ### 2. Install Dependencies
 
@@ -48,12 +48,11 @@ npm start
 npm run build
 ```
 
-## 📹 YouTube Tutorial
+## 🌟 Getting Started
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 85K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
+To customize this portfolio for your own use:
+1. Update the content in `src/constants.js` with your information
+2. Replace images in `src/assets/` with your own
+3. Modify components to match your design preferences
 
-## 🌟 Credits
-
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+Feel free to ⭐ this repository if you find it helpful!
