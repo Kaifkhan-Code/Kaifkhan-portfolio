@@ -24,6 +24,8 @@ import amityLogo from "./assets/education/amity.png";
 import schoolLogo from "./assets/education/scs.png";
 import letsupgradeLogo from "./assets/experience/lu.png";
 import internshalaLogo from "./assets/experience/is.png";
+import secrealmLogo from "./assets/experience/secrealm.png";
+import amigosLogo from "./assets/experience/amigos.png";
 import gfgfuLogo from "./assets/Certification/gfgfull.png";
 import gfgjavaLogo from "./assets/Certification/gfgjava.png";
 import luGitLogo from "./assets/Certification/lu.png";
@@ -101,6 +103,24 @@ export const experiences = [
     date: "June 2025",
     desc: "Guided students in applying for the Internshala Student Partner Programme and improved networking and communication skills.",
     skills: ["Networking", "Communication"],
+  },
+  {
+    id: 2,
+    img: secrealmLogo,
+    role: "Full Stack Developer Intern",
+    company: "Secrealm Inc.",
+    date: "May 2026 – Present",
+    desc: "Working on Money Max Sandbox, a real estate application, contributing across both frontend and backend. Integrating APIs from social media platforms and Google Developer services, handling authentication and data exchange, while managing fixes across all API connections to ensure stable functionality.",
+    skills: ["React.js", "Node.js", "Express.js", "REST APIs", "Git", "CI/CD"],
+  },
+  {
+    id: 3,
+    img: amigosLogo,
+    role: "Web Development Intern",
+    company: "InAmigos Foundation",
+    date: "May 2026 (02–16 May 2026)",
+    desc: "Completed a two-week web development internship, contributing to live, real-world web tasks. Built and maintained responsive web interfaces and collaborated with the team to deliver web-based solutions under the guidance of the HR Head.",
+    skills: ["HTML5", "CSS3", "JavaScript", "React.js"],
   },
 ];
 
