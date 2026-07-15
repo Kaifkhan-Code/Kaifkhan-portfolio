@@ -25,7 +25,7 @@ import schoolLogo from "./assets/education/scs.png";
 import letsupgradeLogo from "./assets/experience/lu.png";
 import internshalaLogo from "./assets/experience/is.png";
 import secrealmLogo from "./assets/experience/secrealm.png";
-import amigosLogo from "./assets/experience/amigos.png";
+import amigosLogo from "./assets/experience/Amigos.png";
 import gfgfuLogo from "./assets/Certification/gfgfull.png";
 import gfgjavaLogo from "./assets/Certification/gfgjava.png";
 import luGitLogo from "./assets/Certification/lu.png";
