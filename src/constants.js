@@ -32,6 +32,7 @@ import luGitLogo from "./assets/Certification/lu.png";
 import deloitteLogo from "./assets/Certification/forage.png";
 import bikelogo from "./assets/projects/bike.png";
 import weatherlogo from "./assets/projects/weather.png";
+import jharkhandTrailsImg from "./assets/projects/JharkhandTrails1.png";
 import uiLogo from "./assets/tech_logo/ui.png";
 import cloudLogo from "./assets/tech_logo/cloud.png";
 import ejsLogo from "./assets/tech_logo/ejs.png";
@@ -198,6 +199,16 @@ export const projects = [
   ],
   github: "https://github.com/Kaifkhan-Code/Air-Bnb-Clone",
   webapp: "https://air-bnb-clone-fdj8.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Jharkhand Trails",
+    description:
+      "A tourism discovery platform for exploring Jharkhand's waterfalls, hill stations, wildlife, lakes, cultural heritage, and hidden destinations.",
+    image: jharkhandTrailsImg,
+    tags: ["Node JS", "Express JS", "MongoDB", "EJS", "Passport.js", "Render"],
+    github: "https://github.com/Kaifkhan-Code/Jharkhand_tourism",
+    webapp: "https://jharkhand-trails.onrender.com/",
 }
 ];
 
