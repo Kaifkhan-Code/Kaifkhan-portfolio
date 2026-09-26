@@ -49,6 +49,10 @@ const Work = () => {
                 {project.title}
               </h3>
 
+              {project.date && (
+                <p className="text-sm text-purple-400 mb-2">{project.date}</p>
+              )}
+
               <p className="text-gray-500 mb-4 pt-2 line-clamp-3">
                 {project.description}
               </p>
@@ -103,6 +107,12 @@ const Work = () => {
                   {selectedProject.title}
                 </h3>
 
+                {selectedProject.date && (
+                  <p className="text-sm text-purple-400 -mt-2 mb-4">
+                    {selectedProject.date}
+                  </p>
+                )}
+
                 <p className="text-gray-400 mb-6">
                   {selectedProject.description}
                 </p>
@@ -119,23 +129,32 @@ const Work = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex gap-4">
-                  <a
-                    href={selectedProject.github}
-                    target="_blank"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-300 py-2 rounded-xl text-center"
-                  >
-                    View Code
-                  </a>
+                {(selectedProject.github && selectedProject.github !== "#") ||
+                (selectedProject.webapp && selectedProject.webapp !== "#") ? (
+                  <div className="flex gap-4">
+                    {selectedProject.github && selectedProject.github !== "#" && (
+                      <a
+                        href={selectedProject.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-gray-800 hover:bg-purple-800 text-gray-300 py-2 rounded-xl text-center"
+                      >
+                        View Code
+                      </a>
+                    )}
 
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white py-2 rounded-xl text-center"
-                  >
-                    View Live
-                  </a>
-                </div>
+                    {selectedProject.webapp && selectedProject.webapp !== "#" && (
+                      <a
+                        href={selectedProject.webapp}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-purple-600 hover:bg-purple-800 text-white py-2 rounded-xl text-center"
+                      >
+                        View Live
+                      </a>
+                    )}
+                  </div>
+                ) : null}
 
               </div>
             </div>

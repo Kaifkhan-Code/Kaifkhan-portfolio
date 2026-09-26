@@ -229,12 +229,11 @@ export const projects = [
   {
     id: 4,
     title: "Mini ERP System",
+    date: "September 2026",
     description:
-      "A mini ERP system designed to support core business management workflows.",
+      "Built a full-stack ERP demo for inventory, work orders, stock transfers, and order reservations. Added an Ops Pulse dashboard with live KPIs and transactional safeguards against overselling. Implemented role-based authentication with JWT and bcrypt, and containerized the full stack with Docker Compose.",
     image: miniErpImg,
-    tags: ["Spring Boot"],
-    github: "#",
-    webapp: "#",
+    tags: ["Node.js", "Express.js", "MongoDB", "React.js", "Docker Compose", "JWT", "bcrypt"],
 }
 ];
 
