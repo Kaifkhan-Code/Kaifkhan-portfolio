@@ -1,5 +1,6 @@
 // ================= SKILLS =================
 
+import { SiDocker } from "react-icons/si";
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
@@ -84,10 +85,10 @@ export const SkillsInfo = [
     { name: "Git", logo: gitLogo },
     { name: "GitHub", logo: githubLogo },
     { name: "VS Code", logo: vscodeLogo },
-    { name: "Docker" },
+    { name: "Docker", icon: SiDocker, iconClassName: "text-[#2496ed]" },
     { name: "Vercel", logo: vercelLogo },
     { name: "Netlify", logo: netlifyLogo },
-    { name: "Cloudinary", logo: cloudLogo }, 
+    { name: "Cloudinary", logo: cloudLogo, layout: "stacked" },
   ],
 }
 ];

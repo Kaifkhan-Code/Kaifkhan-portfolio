@@ -36,16 +36,23 @@ const Skills = () => (
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}
-                  className="flex items-center justify-center gap-2 border border-gray-700 rounded-3xl py-2 px-2"
+                  className={`flex min-w-0 items-center justify-center gap-2 border border-gray-700 rounded-3xl py-2 px-2 ${
+                    skill.layout === "stacked" ? "flex-col gap-1" : ""
+                  }`}
                 >
-                  {skill.logo && (
+                  {skill.icon ? (
+                    <skill.icon
+                      aria-hidden="true"
+                      className={`h-6 w-6 shrink-0 sm:h-8 sm:w-8 ${skill.iconClassName ?? "text-white"}`}
+                    />
+                  ) : skill.logo ? (
                     <img
                       src={skill.logo}
                       alt={skill.name}
-                      className="w-6 h-6 sm:w-8 sm:h-8"
+                      className="h-6 w-6 shrink-0 object-contain sm:h-8 sm:w-8"
                     />
-                  )}
-                  <span className="text-xs sm:text-sm text-gray-300">
+                  ) : null}
+                  <span className="min-w-0 max-w-full break-words text-center text-xs leading-tight text-gray-300 sm:text-sm [overflow-wrap:anywhere]">
                     {skill.name}
                   </span>
                 </div>
