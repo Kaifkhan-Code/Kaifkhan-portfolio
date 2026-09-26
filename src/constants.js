@@ -84,6 +84,7 @@ export const SkillsInfo = [
     { name: "Git", logo: gitLogo },
     { name: "GitHub", logo: githubLogo },
     { name: "VS Code", logo: vscodeLogo },
+    { name: "Docker" },
     { name: "Vercel", logo: vercelLogo },
     { name: "Netlify", logo: netlifyLogo },
     { name: "Cloudinary", logo: cloudLogo }, 
