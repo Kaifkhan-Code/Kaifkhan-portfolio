@@ -135,6 +135,7 @@ export const experiences = [
     img: amityExperienceLogo,
     role: "JCSTI Project Intern",
     company: "Amity University Jharkhand",
+    date: "21 May – 1 July 2026",
     desc: "Managed web applications and worked on extracting data from IoT devices and transferring it to the cloud as part of a college project internship.",
     skills: ["Web Applications", "IoT", "Data Extraction", "Cloud Computing"],
   },
@@ -148,7 +149,7 @@ export const education = [
     img: amityLogo,
     school: "Amity University Jharkhand",
     date: "2023 – 2027",
-    grade: "8.09",
+    grade: "7.99",
     desc: "Currently pursuing B.Tech in Computer Science and Engineering.",
     degree: "B.Tech CSE",
   },
@@ -273,8 +274,9 @@ export const certifications = [
   {
     id: 4,
     title: "Generative AI Certificate",
+    date: "July 2026",
     image: genAiLogo,
-    link: genAiLogo,
+    link: "https://simpli-web.app.link/e/GmteniPBK6b",
   }
 
 ];
