@@ -277,6 +277,7 @@ export const certifications = [
   {
     id: 4,
     title: "Generative AI Certificate",
+    issuer: "Simplilearn",
     date: "July 2026",
     image: genAiLogo,
     link: "https://simpli-web.app.link/e/GmteniPBK6b",
