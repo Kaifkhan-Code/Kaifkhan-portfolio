@@ -67,9 +67,11 @@ const Experience = () => {
                   <h4 className="text-sm text-gray-300">
                     {experience.company}
                   </h4>
-                  <p className="text-xs text-gray-500 mt-1">
-                    {experience.date}
-                  </p>
+                  {experience.date && (
+                    <p className="text-xs text-gray-500 mt-1">
+                      {experience.date}
+                    </p>
+                  )}
                 </div>
               </div>
 

@@ -26,17 +26,22 @@ import letsupgradeLogo from "./assets/experience/lu.png";
 import internshalaLogo from "./assets/experience/is.png";
 import secrealmLogo from "./assets/experience/secrealm.png";
 import amigosLogo from "./assets/experience/Amigos.png";
+import amityExperienceLogo from "./assets/experience/amity.jpeg";
 import gfgfuLogo from "./assets/Certification/gfgfull.png";
 import gfgjavaLogo from "./assets/Certification/gfgjava.png";
 import luGitLogo from "./assets/Certification/lu.png";
 import deloitteLogo from "./assets/Certification/forage.png";
+import genAiLogo from "./assets/Certification/GenAI.png";
 import bikelogo from "./assets/projects/bike.png";
 import weatherlogo from "./assets/projects/weather.png";
 import jharkhandTrailsImg from "./assets/projects/JharkhandTrails1.png";
+import miniErpImg from "./assets/projects/mini_erp_system.png";
 import uiLogo from "./assets/tech_logo/ui.png";
 import cloudLogo from "./assets/tech_logo/cloud.png";
 import ejsLogo from "./assets/tech_logo/ejs.png";
 import passportLogo from "./assets/tech_logo/passport.png";
+import springBootLogo from "./assets/tech_logo/springboot.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
 
 export const SkillsInfo = [
   {
@@ -59,6 +64,7 @@ export const SkillsInfo = [
     { name: "Express JS", logo: expressjsLogo },
     { name: "MySQL", logo: mysqlLogo },
     { name: "MongoDB", logo: mongodbLogo },
+    { name: "Spring Boot", logo: springBootLogo },
     { name: "EJS", logo: ejsLogo },              
     { name: "Passport.js", logo: passportLogo }, 
   ],
@@ -79,6 +85,7 @@ export const SkillsInfo = [
     { name: "GitHub", logo: githubLogo },
     { name: "VS Code", logo: vscodeLogo },
     { name: "Vercel", logo: vercelLogo },
+    { name: "Netlify", logo: netlifyLogo },
     { name: "Cloudinary", logo: cloudLogo }, 
   ],
 }
@@ -122,6 +129,14 @@ export const experiences = [
     date: "May 2026 (02–16 May 2026)",
     desc: "Completed a two-week web development internship, contributing to live, real-world web tasks. Built and maintained responsive web interfaces and collaborated with the team to deliver web-based solutions under the guidance of the HR Head.",
     skills: ["HTML5", "CSS3", "JavaScript", "React.js"],
+  },
+  {
+    id: 4,
+    img: amityExperienceLogo,
+    role: "JCSTI Project Intern",
+    company: "Amity University Jharkhand",
+    desc: "Managed web applications and worked on extracting data from IoT devices and transferring it to the cloud as part of a college project internship.",
+    skills: ["Web Applications", "IoT", "Data Extraction", "Cloud Computing"],
   },
 ];
 
@@ -209,6 +224,16 @@ export const projects = [
     tags: ["Node JS", "Express JS", "MongoDB", "EJS", "Passport.js", "Render"],
     github: "https://github.com/Kaifkhan-Code/Jharkhand_tourism",
     webapp: "https://jharkhand-trails.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "Mini ERP System",
+    description:
+      "A mini ERP system designed to support core business management workflows.",
+    image: miniErpImg,
+    tags: ["Spring Boot"],
+    github: "#",
+    webapp: "#",
 }
 ];
 
@@ -244,6 +269,12 @@ export const certifications = [
     date: "June,2025",
     image: deloitteLogo,
     link: "https://image2url.com/r2/bucket1/images/1775989049926-d40cdb41-0d83-4433-bd17-91d2c5bd7f37.png",
+  },
+  {
+    id: 4,
+    title: "Generative AI Certificate",
+    image: genAiLogo,
+    link: genAiLogo,
   }
 
 ];

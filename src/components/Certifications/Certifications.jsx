@@ -36,9 +36,11 @@ const Certifications = () => {
               <h3 className="text-lg font-semibold text-white">
                 {cert.title}
               </h3>
-              <p className="text-gray-400 text-sm mt-1">
-                {cert.issuer} • {cert.date}
-              </p>
+              {(cert.issuer || cert.date) && (
+                <p className="text-gray-400 text-sm mt-1">
+                  {[cert.issuer, cert.date].filter(Boolean).join(" • ")}
+                </p>
+              )}
             </div>
 
             {/* Button */}
