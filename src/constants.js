@@ -179,6 +179,7 @@ export const projects = [
   {
     id: 0,
     title: "Bike Management System",
+    date: "April 2024",
     description:
       "C++ based system to manage and track second-hand vehicle records using object-oriented programming concepts.",
     image: bikelogo,
@@ -189,6 +190,7 @@ export const projects = [
   {
     id: 1,
     title: "Weather App",
+    date: "November 2024",
     description:
       "React-based weather application using API to fetch real-time weather data with a responsive UI.",
     image: weatherlogo,
@@ -199,6 +201,7 @@ export const projects = [
   {
   id: 2,
   title: "WanderLust (Airbnb Clone)",
+  date: "February 2026",
   description:
     "A full-stack web application inspired by Airbnb where users can create, edit, view, and delete travel listings. Includes authentication, image uploads, and session management.",
   image: wanderlustImg, 
@@ -219,6 +222,7 @@ export const projects = [
   {
     id: 3,
     title: "Jharkhand Trails",
+    date: "August 2026",
     description:
       "A tourism discovery platform for exploring Jharkhand's waterfalls, hill stations, wildlife, lakes, cultural heritage, and hidden destinations.",
     image: jharkhandTrailsImg,
